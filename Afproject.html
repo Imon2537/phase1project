@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzzful Dashboard</title>
+    <link rel="stylesheet" href="fproject.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">buzzful</div>
+            <ul class="menu">
+                <li>MENU</li>
+                <li><a href="Bmood.html">mood track</a></li>
+                <li><a href="community.html">communities</a></li>
+                <li><a href="Cjournal.html">journaling</a></li>
+                <li>OTHERS</li>
+                <li><a href="connect.html">connection</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <header>
+                <input type="text" placeholder="Search" class="search-bar">
+                <div class="user-profile">
+                    <span>🍔</span>
+                    <span>user</span>
+                </div>
+            </header>
+            <section class="dashboard">
+                <h1>Dashboard</h1>
+                <div class="reports">
+                    <div class="report">
+                        <h2>consumption rate</h2>
+                        <div class="chart-container">
+                            <canvas id="consumptionRateChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="report">
+                        <h2>awareness platform</h2>
+                        <p>From 1-8 Dec, 2020</p>
+                        <div class="chart-container">
+                            <canvas id="awarenessPlatformChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="report">
+                    <h2>social media platform</h2>
+                    <div class="chart-container">
+                        <canvas id="socialMediaPlatformChart"></canvas>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="fproject.js"></script>
+</body>
+</html>

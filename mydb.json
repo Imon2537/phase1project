@@ -1,0 +1,130 @@
+{
+  "consumptionRate": [
+    {
+      "day": "01",
+      "value": 12,
+      "id": "ca03"
+    },
+    {
+      "day": "02",
+      "value": 19,
+      "id": "36c7"
+    },
+    {
+      "day": "03",
+      "value": 3,
+      "id": "4809"
+    },
+    {
+      "day": "04",
+      "value": 5,
+      "id": "5245"
+    },
+    {
+      "day": "05",
+      "value": 2,
+      "id": "0645"
+    },
+    {
+      "day": "06",
+      "value": 3,
+      "id": "e9a5"
+    },
+    {
+      "day": "07",
+      "value": 7,
+      "id": "851a"
+    },
+    {
+      "day": "08",
+      "value": 6,
+      "id": "e029"
+    },
+    {
+      "day": "09",
+      "value": 4,
+      "id": "3ce5"
+    },
+    {
+      "day": "10",
+      "value": 5,
+      "id": "debc"
+    },
+    {
+      "day": "11",
+      "value": 6,
+      "id": "3ac6"
+    },
+    {
+      "day": "12",
+      "value": 8,
+      "id": "914f"
+    }
+  ],
+  "awarenessPlatform": [
+    {
+      "time": "Morning",
+      "value": 28,
+      "id": "684a"
+    },
+    {
+      "time": "Afternoon",
+      "value": 40,
+      "id": "f488"
+    },
+    {
+      "time": "Evening",
+      "value": 32,
+      "id": "d536"
+    }
+  ],
+  "socialMediaPlatform": [
+    {
+      "platform": "Instagram",
+      "value": 85,
+      "id": "b088"
+    },
+    {
+      "platform": "Facebook",
+      "value": 85,
+      "id": "f0c8"
+    },
+    {
+      "platform": "YouTube",
+      "value": 92,
+      "id": "3ea0"
+    }
+  ],
+  "journalEntries": [
+    {
+      "date": "2024-07-21",
+      "content": "Started working on the new journal feature.",
+      "id": "9052"
+    },
+    {
+      "id": "477d",
+      "date": "2002-03-13",
+      "content": "today i stopped watching youtube shorts\n"
+    },
+    {
+      "id": "cf62",
+      "date": "2024-03-12",
+      "content": "i am ian"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "1",
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "timeSpent": 22
+    },
+    {
+      "id": "e459",
+      "name": "x",
+      "url": "https://x.com/home?lang=en",
+      "timeSpent": 0,
+      "moodPromptTime": 60
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Track</title>
+    <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">buzzful</div>
+            <ul class="menu">
+                <li>MENU</li>
+                <li><a href="Afproject.html">Dashboard</a></li>
+                <li class="active">Mood Track</li>
+                <li><a href="community.html">Communities</a></li>
+                <li><a href="Cjournal.html">Journaling</a></li>
+                <li>OTHERS</li>
+                <li><a href="connect.html">Connection</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <header>
+                <input type="text" placeholder="Search" class="search-bar">
+                <div class="user-profile">
+                    <span>🍔</span>
+                    <span>user</span>
+                </div>
+            </header>
+            <section class="mood-track">
+                <h1>Mood Track</h1>
+                <div id="content">
+                    <p id="impact-message"></p>
+                    <div id="mood-form" class="hidden">
+                        <label for="mood">How are you feeling right now?</label>
+                        <input type="text" id="mood" placeholder="e.g., depressed or happy.">
+                        <button id="submit-mood">Submit</button>
+                    </div>
+                    <div id="response-section" class="hidden">
+                        <p id="response-message"></p>
+                        <button id="stop-usage">Stop Using Social Media</button>
+                        <button id="continue-usage">Continue Using Social Media</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="mood.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journaling</title>
+    <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">buzzful</div>
+            <ul class="menu">
+                <li>MENU</li>
+                <li><a href="Afproject.html">Dashboard</a></li>
+                <li><a href="Bmood.html">Mood Track</a></li>
+                <li><a href="community.html">Communities</a></li>
+                <li class="active">Journaling</li>
+                <li>OTHERS</li>
+                <li><a href="connect.html">Connection</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <header>
+                <input type="text" placeholder="Search" class="search-bar">
+                <div class="user-profile">
+                    <span>🍔</span>
+                    <span>user</span>
+                </div>
+            </header>
+            <section class="journaling">
+                <h1>Journaling</h1>
+                <form id="journalForm">
+                    <label for="entryDate">Date:</label>
+                    <input type="date" id="entryDate" name="entryDate" required>
+                    <label for="entryContent">Journal Entry:</label>
+                    <textarea id="entryContent" name="entryContent" rows="10" required></textarea>
+                    <button type="submit">Save Entry</button>
+                </form>
+                <div id="message"></div>
+                <div id="entries">
+                    <h2>Your Entries</h2>
+                    <ul id="entryList"></ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="journal.js"></script>
+</body>
+</html>
