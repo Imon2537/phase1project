@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             content: entryContent
         };
 
-        fetch('http://localhost:3000/journalEntries', {
+        fetch('https://my-json-server.typicode.com/imon2537/myDatabase/journalEntries', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Load existing entries
-    fetch('http://localhost:3000/journalEntries')
+    fetch('https://my-json-server.typicode.com/imon2537/myDatabase/journalEntries')
         .then(response => response.json())
         .then(entries => {
             entries.forEach(entry => addEntryToList(entry));

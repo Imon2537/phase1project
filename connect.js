@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             moodPromptTime: moodPromptTime
         };
 
-        fetch('http://localhost:3000/platforms', {
+        fetch('https://my-json-server.typicode.com/imon2537/myDatabase/platforms', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Load existing platforms
-    fetch('http://localhost:3000/platforms')
+    fetch('https://my-json-server.typicode.com/imon2537/myDatabase/platforms')
         .then(response => response.json())
         .then(platforms => {
             platforms.forEach(platform => {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to simulate time tracking
     function trackTime() {
-        fetch('http://localhost:3000/platforms')
+        fetch('https://my-json-server.typicode.com/imon2537/myDatabase/platforms')
             .then(response => response.json())
             .then(platforms => {
                 platforms.forEach(platform => {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         promptMoodTracker(platform);
                     }
 
-                    fetch(`http://localhost:3000/platforms/${platform.id}`, {
+                    fetch(`https://my-json-server.typicode.com/imon2537/myDatabase/platforms/${platform.id}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json'

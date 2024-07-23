@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const awarenessPlatformCtx = document.getElementById('awarenessPlatformChart').getContext('2d');
     const socialMediaPlatformCtx = document.getElementById('socialMediaPlatformChart').getContext('2d');
 
-    fetch('http://localhost:3000/consumptionRate')
+    fetch('https://my-json-server.typicode.com/imon2537/myDatabase/consumptionRate')
         .then(response => response.json())
         .then(data => {
             const labels = data.map(item => item.day);
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-    fetch('http://localhost:3000/awarenessPlatform')
+    fetch('https://my-json-server.typicode.com/imon2537/myDatabase/awarenessPlatform')
         .then(response => response.json())
         .then(data => {
             const labels = data.map(item => item.time);
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-    fetch('http://localhost:3000/socialMediaPlatform')
+    fetch('https://my-json-server.typicode.com/imon2537/myDatabase/socialMediaPlatform')
         .then(response => response.json())
         .then(data => {
             const labels = data.map(item => item.platform);
