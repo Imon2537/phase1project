@@ -71,7 +71,7 @@ buzzful-app/
 . Feel free to open issues or submit pull requests to contribute to the app. For major changes, please open an issue first to discuss what you would like to change.
 
 
-https://github.com/user-attachments/assets/d2f81582-e024-40c4-a018-ebd1c78b013c
+https://www.loom.com/share/c3af79f0502847f9b492906610c6794a?sid=702ea704-25a7-4805-a746-cf7de747af52
 
 
 
